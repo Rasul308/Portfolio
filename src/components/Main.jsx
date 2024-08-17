@@ -61,8 +61,8 @@ const Main = () => {
           ))}
           </div>
           <p className="desc_container-p">
-          {t('desc1')}
-            <br /><br /> {t('desc2')}
+            <span className='desc_container-p-span1'>{t('desc1')}</span>
+            <br /><br /> <span className='desc_container-p-span2'>{t('desc2')}</span>
           </p>
         </div>
       </section>
